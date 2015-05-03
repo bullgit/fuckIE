@@ -11,4 +11,4 @@ link to `fuckie.js` in your html document, either downloaded locally or from git
 
 ## What
 
-When the user agent is that of Internet Explorer or Edge, the site will not display any CSS
+When the user agent is the one of Internet Explorer or Edge, the site will not display any CSS
