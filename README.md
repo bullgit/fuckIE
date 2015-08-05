@@ -1,5 +1,5 @@
 # fuckIE
-If my users are using IE, they don't need my beautiful code right ? 
+If my users are using IE, they don't need my beautiful code right ?
 
 ## How
 
@@ -11,4 +11,4 @@ link to `fuckie.js` in your html document, either downloaded locally or from git
 
 ## What
 
-When the user agent is the one of Internet Explorer or Edge, the site will not display any CSS
+When the browser is Internet Explorer or Edge (not the user agent), the site will not display any CSS
