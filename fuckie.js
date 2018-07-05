@@ -43,6 +43,8 @@ if (window.msWriteProfilerMark || !!window.ActiveXObject) {
   });
 
   walk(document.body, function (dom) {
-    dom.style = '';
+    if (dom.style) {
+      dom.style.cssText = '';
+    }
   });
 }
