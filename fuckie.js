@@ -1,4 +1,4 @@
-if (window.navigator.msPointerEnabled) {
+if (window.msWriteProfilerMark || !!window.ActiveXObject) {
 
   var slice = Array.prototype.slice;
   var links = document.getElementsByTagName('link');
@@ -18,7 +18,7 @@ if (window.navigator.msPointerEnabled) {
         nodes = slice.call(node.childNodes).concat(nodes);
       }
     }
-  }
+  };
 
   Array.prototype.forEach = Array.prototype.forEach || function forEach(callback, thisArg) {
     if (typeof callback !== 'function') {
